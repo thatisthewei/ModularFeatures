@@ -1,0 +1,11 @@
+Hello $name,
+
+Please enter the following code into the login mask:
+
+$code
+
+The code will expire in $expires_in_minutes minutes.
+If you did not try to log in recently, you may want to change your password.
+
+Best regards,
+The NextGrant Team

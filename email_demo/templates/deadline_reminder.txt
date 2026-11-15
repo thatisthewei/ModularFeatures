@@ -1,0 +1,7 @@
+Hello $name,
+
+We want to kindly inform you, that the deadline for $subject for the $topic is in $time.
+For further details, please check out the details page of $topic.
+
+Best regards,
+The NextGrant Team

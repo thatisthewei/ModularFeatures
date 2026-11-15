@@ -1,0 +1,8 @@
+Hello $name,
+
+There is a new update for $topic:
+
+$content
+
+Best regards,
+The NextGrant Team

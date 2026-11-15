@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE
+../.idea/
+.idea/
+.vscode/
+
+# Local recipient data
+/email_demo/recipients.csv
+
+# Logs
+*.log

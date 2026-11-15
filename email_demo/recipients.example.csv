@@ -1,0 +1,4 @@
+email,name,newsletter_sub,topic_a,topic_b
+alice@example.com,Alice,true,true,false
+bob@example.com,Bob,false,true,true
+charlie@example.com,Charlie,true,false,true

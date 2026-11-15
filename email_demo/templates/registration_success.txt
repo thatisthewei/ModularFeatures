@@ -1,0 +1,7 @@
+Hello $name,
+
+Thank you for your registration.
+Your registration was successful.
+
+Best regards,
+The NextGrant Team
