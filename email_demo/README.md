@@ -49,7 +49,7 @@ python -m pip install pytest
 
 ## Configuration
 
-Create a `.env` file in the `email-demo` directory:
+Create a `.env` file in the `email_demo` directory:
 
 ```dotenv
 SMTP_HOST=smtp.gmail.com
@@ -69,14 +69,18 @@ Recipients are stored in `recipients.csv`.
 Example:
 
 ```csv
-email,name,topic_a,topic_b
-alice@example.com,Alice,true,false
-bob@example.com,Bob,false,true
+email,name,newsletter_sub,topic_a,topic_b
+alice@example.com,Alice,true,true,false
+bob@example.com,Bob,false,false,true
 ```
 
 Use only controlled test addresses.
 
 Each address must occur once. Subscription fields accept `true` or `false`.
+
+The column `newsletter_sub` indicates whether a notification is wanted or not. 
+The value may have `false` while individual subscriptions fields may be `true`.
+A `false` value for `newsletter_sub` means no email notification should be sent to the user.
 
 ## Email Templates
 

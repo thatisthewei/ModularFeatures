@@ -49,7 +49,7 @@ def get_recipients_by_topic(topic: str) -> list[dict[str, str]]:
 
     # change separator if needed ',', ';', etc.
     recipients_df = pd.read_csv(CSV_PATH, sep=',')
-    print(recipients_df.head())
+    # print(recipients_df.head())
     if (len(recipients_df) == 0 or recipients_df.empty
             or not {"email", "name"}.issubset(recipients_df.columns)):
         raise ValueError("Invalid recipient CSV columns.")
@@ -79,7 +79,7 @@ def get_recipients_by_topic(topic: str) -> list[dict[str, str]]:
         if not is_valid_email(email):
             print(f"Invalid email address in recipients.csv.")
             print(f"Code will continue, but will skip this email {email}")
-            input("Press Enter to continue...")
+            # input("Press Enter to continue...")
             continue
 
         if not subscription:
